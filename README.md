@@ -1,8 +1,9 @@
-This is a simple demo of using the [Gamepad API](http://www.w3.org/TR/gamepad/) in JavaScript. It attempts to account for differences in implementations of the unfinished spec, as well as Chrome's prefixed implementation.
+This is a [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) script to allow scrolling on any website with your Gamepad. It is successfully tested with the Xbox 360 gamepad on Firefox 49. For other gamepads you might need to change the axes indices to get the scroll directions right.
 
-Gamepad API Test
+Other browsers should also work, as this project is a fork of *the* gamepad boilerplate code: https://github.com/luser/gamepadtest
 
-Written in 2013 by Ted Mielczarek <ted@mielczarek.org>
+Original gamepad API test code written in 2013 by Ted Mielczarek <ted@mielczarek.org>
+Scrolling code added in 2016 by Constantin Berhard
 
 To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
 
